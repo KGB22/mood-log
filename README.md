@@ -1,4 +1,4 @@
-# 🌿 Mood Log
+🌿 Mood Log
 
 ## 📚 프로젝트 소개
 
