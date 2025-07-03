@@ -1,0 +1,27 @@
+.Header {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid rgb(240, 240, 240);
+  padding: 20px 0;
+}
+
+.Header > div {
+  display: flex;
+}
+
+.Header .header_center {
+  font-size: 20px;
+  justify-content: center;
+  width: 50%;
+}
+
+.Header .header_left {
+  width: 25%;
+  justify-content: flex-start;
+}
+.Header .header_right {
+  width: 25%;
+
+  justify-content: flex-end;
+  color: #eaf3e4;
+}

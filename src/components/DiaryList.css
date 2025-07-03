@@ -1,0 +1,7 @@
+.DiaryList {
+  width: 100%;
+}
+
+.DiaryList > div > Button {
+  flex: 1;
+}
