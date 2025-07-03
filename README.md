@@ -36,5 +36,5 @@
 - 감정 ID, 이름, 이미지, 색상, 작성 일자, 내용으로 구성
 
 ## 🌐 Demo
-- [Mood Log 배포 링크(Vercel)]([https://mood-log.vercel.app](https://mood-log-ashen.vercel.app/)
+- [Mood Log 배포 링크(Vercel)]([https://mood-log-ashen.vercel.app/])
 
