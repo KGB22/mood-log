@@ -42,5 +42,4 @@
 
 ## 🌐 Demo
 
-- [Mood Log 배포 링크(Vercel)]([https://mood-log-ashen.vercel.app/])
-
+- [Mood Log 배포 링크(Vercel)](https://mood-log-ashen.vercel.app/)
