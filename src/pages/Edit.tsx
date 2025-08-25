@@ -15,7 +15,7 @@ const Edit = () => {
   const { onUpdate } = useContext(DiaryDispatchContext)!;
 
   const onSubmit = (input: Omit<DiaryItemType, "id">) => {
-    if (window.confirm("수정된 내용을 저장하시겠습니까?")) {
+    if (window.confirm("Save changes to this diary entry?")) {
       onUpdate(
         Number(params.id),
         input.createdAt,

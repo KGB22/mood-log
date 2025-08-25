@@ -32,7 +32,7 @@ const EmotionCard = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 60px;
+
   font-size: 14px;
   text-align: center;
 `;
@@ -42,6 +42,20 @@ const Img = styled.img`
   height: 40px;
 `;
 
+const FontSt = styled.div`
+  color: #222;
+  font-weight: bold;
+`;
+
+const TimesSt = styled.div`
+  background-color: #222;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 2px 5px;
+  width: 50px;
+  font-size: 12px;
+`;
 const MonthlyChart = ({ data }: Props) => {
   return (
     <div style={{ width: "100%", margin: "0 auto" }}>
@@ -75,8 +89,8 @@ const MonthlyChart = ({ data }: Props) => {
               <EmotionCard key={idx}>
                 <Img src={entry.emotionSrc} alt={entry.value} />
                 <div>{entry.name}</div>
-                <div>{entry.value}</div>
-                <div>{entry.topEmotionCount} times</div>
+                <FontSt>{entry.value}</FontSt>
+                <TimesSt>{entry.topEmotionCount} times</TimesSt>
               </EmotionCard>
             )
         )}

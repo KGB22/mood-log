@@ -24,6 +24,12 @@ const Img = styled.img`
   width: 40px;
   height: 40px;
 `;
+
+const FontSt = styled.span`
+  color: #222;
+  font-weight: bold;
+`;
+
 type Props = {
   data: {
     name: string;
@@ -91,7 +97,7 @@ const YearChart = ({ data }: Props) => {
             {entry.emotionSrc && (
               <Img src={entry.emotionSrc} alt={entry.name} />
             )}
-            <span>{entry.name}</span>
+            <FontSt>{entry.name}</FontSt>
           </LegendItem>
         ))}
       </LegendContainer>
